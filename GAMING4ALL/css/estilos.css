@@ -1,0 +1,320 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  scroll-behavior: smooth;
+}
+
+header {
+  font-family: "Courier New";
+  text-align: center;
+  height: 50vh;
+  background-color: #683ab77c;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(..//images/background/gaming_background.jpg);
+}
+
+nav {
+  text-align: center;
+  padding: 50px;
+}
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 18px;
+  background-color: #b2abca;
+}
+
+main{
+  background-image: url(../images/background/background-main.jpg);
+}
+
+h3 {
+  color: #180a08;
+  font-family: "Courier New";
+  font-size: 28px;
+  font-weight: 0;
+  margin-top: 30px;
+  background-color: rgb(247, 244, 247);
+  border: 2px solid black;
+  margin: 40px;
+  padding: 20px;
+}
+
+p {
+  line-height: 2;
+  font-family: "Lucida Console";
+  font-size: 18px;
+  font-weight: 300;
+  text-justify: distribute-all-lines;
+  text-align: justify; 
+}
+
+.texto-justificado {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+br{
+  line-height: 2;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.contenedor-nosotros {
+  background-color: rgba(255, 255, 255, 0.486);
+    border: 2px solid black;
+    margin: 40px;
+    padding: 20px;
+    
+}
+
+.head {
+  text-align: center;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-treslineas{
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background: floralwhite;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0, 0, 0, .5;
+}
+
+.menu-navegacion{
+  color: #fff;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30vw;
+  height: 100%;
+  background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: transform .3s ease-in-out;
+  transform: translate(110%);
+  box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.spread{
+  transform: translate(0);
+}
+
+.titulo{
+  font-size: 42px;
+  margin-bottom: 15px;
+  color: purple;
+  font-family: "Courier New";
+}
+
+.copy{
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.subtitulo {
+  text-align: left;
+  color: rgb(4, 16, 22);
+  font-family: "Courier New";
+  font-weight: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.contenedor-tendencias {
+  display: flex;
+  line-height: 1.5;
+  background-color: rgba(255, 255, 255, 0.486);
+  border: 2px solid black;
+  margin: 40px;
+  padding: 20px;
+}
+
+.ul-tendencias {
+  width: 45%;
+
+}
+
+.tendencias {
+  margin-bottom: 20px;
+}
+
+.n-tendencias {
+  margin-bottom: 7px;
+  color: #8b74c0;
+}
+
+.number {
+  display: inline-block;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  width: 30px;
+  height: 30px;
+  color: #BDBDBD;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 30px;
+}
+
+.noticias {
+  background: #D1C4E9;
+}
+
+.contenedor-galeria-noticias {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+
+.img-noticias {
+  object-fit: cover;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+  box-shadow: 0, 0, 6px, rgba(131, 51, 51, 0.5);
+  border: 5px solid black;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 0.1px;
+  font-family: "Lucida Console";
+  background-color: #607D8B;
+  color: #fff;
+}
+
+.contact-us {
+  color: #fff
+}
+
+.brand {
+  display: flex;
+ justify-content: flex-end;
+ margin-right: 20px;
+}
+
+.email-contacto{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.social-media-icon {
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+.social-media-icon:hover {
+  background: #fff;
+  color: #757575;
+}
+
+.social-media-icon i {
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.copyright{
+  justify-content: center;
+  text-align: center;
+  margin-left: 30px;
+}
+
+@media screen and (max-width:800px){
+    
+    p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 1em 0;
+    }
+  
+    .menu-navegacion{
+      width: 50vw;
+    }
+
+    .titulo{
+      font-size: 40px;
+    }
+    
+    .contenedor-nosotros{
+      width: 80%;
+    }
+
+    .contenedor-tendencias{
+      width: 80%;
+    }
+
+    main {
+      width: 80%;
+    }
+
+    .img-noticias{
+      width: 80%;
+      margin: auto;
+    }
+}
+
+@media screen and (max-width:500px){
+    .menu-navegacion{
+      width: 65vw;
+    }
+    .menu-treslineas{
+      top: 20px;
+      right: 20px;
+    }
+    .titulo{
+      font-size: 30px;
+    }
+    
+    .subtitulo{
+      font-size: 30px;
+    }
+
+    .img-noticias{
+      width: 95%;
+      margin: auto;
+    }
+
+    .contact-us{
+      width: 90%;
+    }
+}
