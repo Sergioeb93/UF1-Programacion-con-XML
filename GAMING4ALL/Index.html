@@ -240,17 +240,17 @@
                 </div>
             </div>
         </section>
-    <section class="contenedor-formulario" id="formulario">
+        <section class="contenedor-formulario" id="formulario">
         <div class="contenido-fomulario">
-            <h4>Formulario de Suscripción</h4>
-            <p>Suscribete para no perderte las últimas noticias</p>
-            <form>
+            <h4>Suscribete para no perderte las últimas noticias</h4>
+            <form id="suscripciónform">
+                <legend>Formulario de suscripción</legend>
                 <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" value="Sergio"><br>
+                <input type="text" id="nombre" name="nombre" maxlength="20" required pattern="[A-Za-z]"><br>
                 <label for="apellido">Apellido:</label><br>
-                <input type="text" id="apellido" name="apellido" value="Espartero"><br>
+                <input type="text" id="apellido" name="apellido" maxlength="20" required pattern="[A-Za-z]"><br>
                 <label for="e-mail">Correo electrónico:</label><br>
-                <input type="text" id="e-mail" name="e-mail" value="sergioeb93@gmail.com"><br>
+                <input type="text" id="e-mail" name="e-mail" required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9.-]"><br>
                 <label for="pwd">Contraseña:</label><br>
                 <input type="contraseña" id="contraseña" name="contraseña"><br>
                 <br><br>
